@@ -1,0 +1,20 @@
+{
+  "name": "Fit Future",
+  "short_name": "Fit Future",
+  "start_url": "/signup",
+  "display": "standalone",
+  "background_color": "#3C444C",
+  "theme_color": "#F27A54",
+  "icons": [
+    {
+      "src": "./img/icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
