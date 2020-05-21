@@ -17,7 +17,7 @@
             v-model="password">
         </div>
         <div class="submit">
-          <button type="submit">Log In</button>
+          <button type="submit" data-cy-login-button>Log In</button>
         </div>
       </form>
     </div>

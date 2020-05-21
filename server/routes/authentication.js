@@ -54,7 +54,7 @@ async function doLogin(req, res) {
   const users = await pool.query('SELECT email, password, id FROM users WHERE email = ? AND deleted_at IS NULL', [email]);
 
   if (users.length !== 1) {
-    return res.status(403).json({msg: 'Incorrect email or password'})
+    return res.status(400).json({msg: 'Incorrect email or password'})
   }
   const user = users[0];
   let validPassword;
